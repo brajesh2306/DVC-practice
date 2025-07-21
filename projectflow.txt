@@ -1,0 +1,7 @@
+create an git repo in remote or github
+pull it in the local machine
+make an file and write code and then commit it
+git status
+git add . (add all files)
+git commit -m "first commit"
+git push -u origin master
