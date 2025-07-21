@@ -4,7 +4,21 @@ make an file and write code and then commit it
 git status
 git add . (add all files)
 git commit -m "first commit"
-git push -u origin master
+git push origin main
 ------------------------------------
 now hum DVC ko setup kerege or command dege 
-DVC init
+ek folder banao terminal command - mkdir S3
+now hum dvc ko batayge ki data ki location kya h - dvc remote add -d myremote S3
+next hum batayege ki konse data ko track kerna h - dvc add data/
+aab ek error aayegi jisme bolega ki bhai pahle se hi git track ker raha h data ko then hume pahle git se untrack kerwana padega 
+fir hum dvc se track kerwayege data ko 
+- git rm -r --cached "data" iska matlab git abb responsible nahi h data folder ki tracking k liye 
+- git commit -m "stop tracking data" commit kiya 
+- dvc add data/ aab dvc ko bolege ki data ko track ker
+----------------------------------------------
+now dvc ne ek file di h data.dvc to usme ek md5 name ki id di h ussi ki help se hum dvc k version maintain kerege 
+or har bar hum dvc ko update kerege to usmei id change ho jati h
+- git add .gitignore data.dvc   run the command to add dvc file in git ignore
+- git status  git bolega ki bhai kuch changes hue h 
+- dvc status dvc bolega ki bhai sab update hai no tension 
+
