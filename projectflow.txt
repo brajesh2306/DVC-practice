@@ -21,4 +21,14 @@ or har bar hum dvc ko update kerege to usmei id change ho jati h
 - git add .gitignore data.dvc   run the command to add dvc file in git ignore
 - git status  git bolega ki bhai kuch changes hue h 
 - dvc status dvc bolega ki bhai sab update hai no tension 
-
+- git add .
+- git commit -m "add dvc file"
+- git push origin main
+abb dvc humere data ko track to ker raha h but kuch dala nahi h aabhi tk to usko bhi humko add and commit kerna padega 
+- dvc status
+- dvc add data/
+- dvc commit -m "first commit"
+- dvc push
+-----------------------------------------------
+- git status
+- git add/commit/push
