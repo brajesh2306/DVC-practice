@@ -5,3 +5,6 @@ git status
 git add . (add all files)
 git commit -m "first commit"
 git push -u origin master
+------------------------------------
+now hum DVC ko setup kerege or command dege 
+DVC init
