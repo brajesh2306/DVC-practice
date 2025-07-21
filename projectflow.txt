@@ -32,3 +32,8 @@ abb dvc humere data ko track to ker raha h but kuch dala nahi h aabhi tk to usko
 -----------------------------------------------
 - git status
 - git add/commit/push
+-----------------------------------------------
+Now abb hum data m changes kerege or deakhege 
+-agin dvc commit and dvc push
+- git status
+

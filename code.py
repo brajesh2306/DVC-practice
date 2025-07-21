@@ -8,6 +8,9 @@ data = {
 
 df = pd.DataFrame(data)
 
+new_row_lock = {'name':'brajesh','age':20,"city":'pipariya'}
+df.loc[len(df.index)] = new_row_lock
+
 data_dir = "data"
 if not os.path.exists(data_dir):
     os.makedirs(data_dir)
